@@ -1,0 +1,411 @@
+body {
+  font-family: monospace;
+  margin: 0;
+  background-color: #08101c;
+  color: #f1f1f1;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* Nav Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: #2ed190;
+  z-index: 1000;
+}
+
+#navs {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.nav {
+  margin-left: 20px;
+}
+
+.buttons {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+/*
+.buttons:hover {
+  background-color: #5b90eb;
+}
+*/
+/* About Style */
+.about-section {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #5b90eb, #2ed190);
+  color: white;
+  text-align: center;
+  margin: 60px 0 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.headers {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.headers::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 5px;
+  background-color: #2ed190;
+  margin: 10px auto 0;
+  border-radius: 5px;
+}
+
+.about-content {
+  margin-top: 20px;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.about-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #f1f1f1;
+}
+
+.skills-icons {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skills-icons svg {
+  color: #f1f1f1;
+  transition: color 0.3s ease, transform 0.3s ease;
+  opacity: 0;
+  animation: fadeInUp 4s ease forwards;
+}
+/*
+.skills-icons svg:hover {
+  color: #2ed190;
+  transform: scale(1.2);
+}*/
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#jsl {
+  animation-delay: 0.1s;
+}
+#tsl {
+  animation-delay: 0.2s;
+}
+#rl {
+  animation-delay: 0.3s;
+}
+#wpsl {
+  animation-delay: 0.4s;
+}
+#htmll {
+  animation-delay: 0.5s;
+}
+#cssl {
+  animation-delay: 0.6s;
+}
+#njsl {
+  animation-delay: 0.7s;
+}
+#pgl {
+  animation-delay: 0.8s;
+}
+
+/* Project Styles */
+.projects-section {
+  padding: 60px 20px;
+  background-color: #08101c;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.projects-section .headers {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.proj {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+/*
+.proj:hover {
+  transform: scale(1.05);
+}
+*/
+.proj h3 {
+  color: #2ed190;
+}
+
+.proj a {
+  color: inherit;
+}
+
+.pic {
+  width: 315px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-left: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.todotext h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.todotext p {
+  width: 700px;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* Contact Styles */
+.contact-section {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #9987de, #2ed190);
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-section .headers {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.contactIcons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 3rem;
+}
+
+.emailInfo {
+  font-size: 175px;
+  transition: 0.25s;
+}
+
+.gitIcon {
+  font-size: 165px;
+  color: #9987de;
+  transition: 0.25s;
+}
+
+.linkedIcon {
+  font-size: 165px;
+  color: #5b90eb;
+  transition: 0.25s;
+}
+
+.contactIcons {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  margin-top: 100px;
+}
+/*
+.emailInfo:hover,
+.gitIcon:hover,
+.linkedIcon:hover {
+  transform: scale(1.2);
+}
+*/
+
+@media (max-width: 1280px) {
+  #navs {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-section,
+  .projects-section,
+  .contact-section {
+    padding: 40px 20px;
+    margin: 60px 0 20px;
+  }
+
+  .headers {
+    font-size: 2rem;
+  }
+
+  .about-content h2 {
+    font-size: 2rem;
+  }
+
+  .about-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .skills-icons {
+    font-size: 2.5rem;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .proj {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .pic {
+    width: 300px;
+    margin: 40px;
+  }
+
+  .todotext {
+    margin-inline-start: 30px;
+    justify-content: center;
+    width: 700px;
+  }
+
+  .todotext h3 {
+    font-size: 1.2rem;
+  }
+
+  .todotext p {
+    font-size: 0.9rem;
+    width: 550px;
+  }
+
+  .contactIcons {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  #navs {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-section,
+  .projects-section,
+  .contact-section {
+    padding: 40px 20px;
+    margin: 60px 0 20px;
+  }
+
+  .headers {
+    font-size: 2rem;
+  }
+
+  .about-content h2 {
+    font-size: 2rem;
+  }
+
+  .about-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .skills-icons {
+    font-size: 2.5rem;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .proj {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .pic {
+    margin: 0 0 20px 0;
+  }
+
+  .todotext h3 {
+    font-size: 1.2rem;
+  }
+
+  .todotext p {
+    font-size: 0.9rem;
+    width: 500px;
+  }
+
+  .todotext {
+    justify-content: center;
+    display: flex;
+  }
+
+  .contactIcons {
+    gap: 20px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  .contactIcons div {
+    margin: 0 10px;
+  }
+
+  .emailInfo {
+    font-size: 100px;
+  }
+
+  .gitIcon {
+    font-size: 90px;
+  }
+
+  .linkedIcon {
+    font-size: 90px;
+  }
+}
