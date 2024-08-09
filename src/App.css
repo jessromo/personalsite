@@ -70,7 +70,9 @@ li {
   margin: 60px 0 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
+.about-section .headers {
+  font-size: 3rem !important;
+}
 .headers {
   font-size: 3rem;
   margin-bottom: 20px;
