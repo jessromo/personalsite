@@ -66,10 +66,10 @@ const Nav = () => {
       </header>
       <div ref={sectionRef1} className="about-section">
         <div className="about">
-          <h1 className="headers">About</h1>
+          <h1 className="headers">Jessica Romo</h1>
           <div className="about-content">
-            <h2>Jessica Romo</h2>
-            <h3>Frontend Web Developer</h3>
+            <h2>Frontend Web Developer</h2>
+            <h3>Hello!</h3>
             <div className="skills-icons">
               <RiJavascriptFill id="jsl" />
               <BiLogoTypescript id="tsl" />
