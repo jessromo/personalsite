@@ -136,27 +136,35 @@ li {
 
 #jsl {
   animation-delay: 0.1s;
+  color: #f7df1e;
 }
 #tsl {
   animation-delay: 0.2s;
+  color: #3178c6;
 }
 #rl {
   animation-delay: 0.3s;
+  color: #61dafb;
 }
 #wpsl {
   animation-delay: 0.4s;
+  color: #21759b;
 }
 #htmll {
   animation-delay: 0.5s;
+  color: #e34f26;
 }
 #cssl {
   animation-delay: 0.6s;
+  color: #1572b6;
 }
 #njsl {
   animation-delay: 0.7s;
+  color: #339933;
 }
 #pgl {
   animation-delay: 0.8s;
+  color: #336791;
 }
 
 /* Project Styles */
