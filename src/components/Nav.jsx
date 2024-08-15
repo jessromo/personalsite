@@ -9,6 +9,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import todo from "../images/todo.png";
 import graph from "../images/grapht.png";
 import cat from "../images/cat.jpg";
+import mymix from "../images/mymix.png";
 import "../App.css";
 
 const Nav = () => {
@@ -103,7 +104,7 @@ const Nav = () => {
           </div>
         </div>
         <div className="proj">
-          <img src={cat} alt="Cat" className="pic" />
+          <img src={mymix} alt="Cat" className="pic" />
           <div className="todotext">
             <h3>MyMix</h3>
             <p>
