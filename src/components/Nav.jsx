@@ -86,33 +86,39 @@ const Nav = () => {
       </div>
       <div ref={sectionRef2} className="projects-section">
         <h1 className="headers">Projects</h1>
-        <div className="proj">
-          <img src={todo} alt="Todo" className="pic" />
-          <div className="todotext">
-            <h3>Random Todo</h3>
-            <p>
-              Helpful web app for indecisive people that have a lot to do and
-              don't know where to start!
-            </p>
+        <a href="https://mymix.netlify.app/">
+          <div className="proj">
+            <img src={mymix} alt="Cat" className="pic" />
+            <div className="todotext">
+              <h3>MyMix</h3>
+              <p>
+                Fun web app utilizing the Spotify API to display user's top
+                tracks tracks in the style of an early 2000s-esque mix tape
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="proj">
-          <img src={graph} alt="Graph" className="pic" />
-          <div className="todotext">
-            <h3>Graph Traversal</h3>
-            <p>Visualizer for graph traversal algorithms</p>
+        </a>
+        <a href="https://randomtodo.netlify.app">
+          <div className="proj">
+            <img src={todo} alt="Todo" className="pic" />
+            <div className="todotext">
+              <h3>Random Todo</h3>
+              <p>
+                Helpful web app for indecisive people that have a lot to do and
+                don't know where to start!
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="proj">
-          <img src={mymix} alt="Cat" className="pic" />
-          <div className="todotext">
-            <h3>MyMix</h3>
-            <p>
-              Fun web app utilizing the Spotify API to display user's top tracks
-              tracks in the style of an early 2000s-esque mix tape
-            </p>
+        </a>
+        <a href="https://graphtraversal.netlify.app">
+          <div className="proj">
+            <img src={graph} alt="Graph" className="pic" />
+            <div className="todotext">
+              <h3>Graph Traversal</h3>
+              <p>Visualizer for graph traversal algorithms</p>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
       <div ref={sectionRef3} className="contact-section">
         <h1 className="headers">Get in Touch!</h1>
