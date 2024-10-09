@@ -275,6 +275,34 @@ li {
 }
 */
 
+/*client page styling*/
+
+.clientheader {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.cintro {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.cprojects {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.project-list{
+  list-style: square;
+  font-size: 1.05rem;
+}
+
+/*responsivness*/
+
 @media (max-width: 1280px) {
   #navs {
     display: flex;

@@ -1,21 +1,16 @@
-import { useState } from "react";
-
 import "./App.css";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
 import Nav from "./components/Nav";
-
+import Clients from "./components/Clients";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      <Nav />
-
-      {/*
-     <About/>
-     <Projects/>
-     <Contact/>
-     */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Nav />} />
+          <Route path="/clients" element={<Clients />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

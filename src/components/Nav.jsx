@@ -8,9 +8,10 @@ import { IoLogoCss3 } from "react-icons/io";
 import { BiLogoPostgresql } from "react-icons/bi";
 import todo from "../images/todo.png";
 import graph from "../images/grapht.png";
-import cat from "../images/cat.jpg";
 import mymix from "../images/mymix.png";
 import "../App.css";
+import { Link } from "react-router-dom";
+
 
 const Nav = () => {
   const sectionRef1 = useRef(null);
@@ -119,6 +120,9 @@ const Nav = () => {
             </div>
           </div>
         </a>
+        <div>
+          <Link to="/clients">Client sites</Link>
+        </div>
       </div>
       <div ref={sectionRef3} className="contact-section">
         <h1 className="headers">Get in Touch!</h1>
