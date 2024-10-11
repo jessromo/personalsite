@@ -12,7 +12,6 @@ import mymix from "../images/mymix.png";
 import "../App.css";
 import { Link } from "react-router-dom";
 
-
 const Nav = () => {
   const sectionRef1 = useRef(null);
   const sectionRef2 = useRef(null);
@@ -71,7 +70,16 @@ const Nav = () => {
           <h1 className="headers">Jessica Romo</h1>
           <div className="about-content">
             <h2>Frontend Web Developer</h2>
-            <h3>Hello!</h3>
+            <h3>About</h3>
+          <p className="about-info">
+              I’m a web developer with 3 years of experience, specializing in
+              building responsive websites and web applications. With a strong
+              focus on front-end development, I work with JavaScript, React, and
+              WordPress to create interactive user interfaces and manage
+              WordPress websites that leverage various themes and plugins to
+              enhance functionality and user experience.
+  </p>
+            <br />
             <div className="skills-icons">
               <RiJavascriptFill id="jsl" />
               <BiLogoTypescript id="tsl" />

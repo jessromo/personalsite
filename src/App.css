@@ -88,7 +88,13 @@ li {
   margin: 10px auto 0;
   border-radius: 5px;
 }
-
+.about-info {
+  width: 500px;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  margin: 0 auto; /* Centers the .about-info container */
+  text-align: center;
+}
 .about-content {
   margin-top: 20px;
 }
@@ -296,7 +302,7 @@ li {
   margin-top: 20px;
 }
 
-.project-list{
+.project-list {
   list-style: square;
   font-size: 1.05rem;
 }
@@ -449,6 +455,10 @@ li {
 }
 
 @media (max-width: 480px) {
+  .about-info {
+    width: 325px;
+  }
+
   .buttons {
     font-size: 15px;
   }
