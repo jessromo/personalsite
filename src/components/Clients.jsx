@@ -9,7 +9,10 @@ const Clients = () => {
       <div className="cprojects">
         <ul>
           <li className="project-list">
-            <a href="https://live-dbainmedia.pantheonsite.io">DbainMedia</a>
+            <a href="https://dbainmedia.com">DbainMedia</a>
+          </li>
+          <li className="project-list">
+            <a href="https://tazmanstreats.shop">DbainMedia</a>
           </li>
         </ul>
       </div>
