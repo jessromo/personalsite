@@ -12,7 +12,7 @@ const Clients = () => {
             <a href="https://dbainmedia.com">DbainMedia</a>
           </li>
           <li className="project-list">
-            <a href="https://tazmanstreats.shop">DbainMedia</a>
+            <a href="https://tazmanstreats.shop">Tazman's Treats</a>
           </li>
         </ul>
       </div>
