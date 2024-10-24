@@ -14,6 +14,11 @@ const Clients = () => {
           <li className="project-list">
             <a href="https://tazmanstreats.shop">Tazman's Treats</a>
           </li>
+          <li className="project-list">
+            <a href="https://romosartinstallationservices.com">
+              Romo's Art Installation Services
+            </a>
+          </li>
         </ul>
       </div>
     </div>
